@@ -1,0 +1,21 @@
+{
+    "name": "juliardi/homedir",
+    "description": "A library that contains a single function to determine user's home directory",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "juliardi",
+            "email": "ardi93@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.1"
+    },
+    "autoload": {
+        "files": ["src/homedir.php"]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
